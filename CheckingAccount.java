@@ -41,6 +41,8 @@ public class CheckingAccount implements HasMenu{
                 case "3":
                     makeWithdrawal();
                     break;
+                default:
+                    System.out.println("Invalid input");
             }
         }
     }

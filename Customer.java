@@ -47,6 +47,8 @@ public class Customer extends User{
                     break;
                 case "3":
                     break;
+                default:
+                    System.out.println("Invalid input");
             }
         }
     }
