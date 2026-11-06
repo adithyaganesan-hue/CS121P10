@@ -46,6 +46,7 @@ public class Customer extends User{
                     savings.start();
                     break;
                 case "3":
+                    changePIN();
                     break;
                 default:
                     System.out.println("Invalid input");
